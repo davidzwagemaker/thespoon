@@ -8,5 +8,6 @@ Rails.application.routes.draw do
 
   # call action from a different controller
   get 'restaurants', to: 'restaurants#index'
+  post 'restaurants' to: 'restaurants#create'
 
 end
